@@ -22,3 +22,5 @@ Planning only; no project code, runtime results, or entry submission in this pha
 - [12. Official rubric mapped to observable proof](12-rubric-proof-map.md)
 
 - [13. Originality against existing tools](13-originality-check.md)
+
+- [14. Unattended operation and stop contract](14-unattended-run-spec.md)
