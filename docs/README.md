@@ -14,3 +14,5 @@ Planning only; no project code, runtime results, or entry submission in this pha
 - [08. Finalist tabletop and baseline comparisons](08-finalist-tabletop.md)
 
 - [09. Alternative ideas with real output artifacts](09-beyond-review-queues.md)
+
+- [10. Evaluation plan and strong baselines](10-evaluation-design.md)
