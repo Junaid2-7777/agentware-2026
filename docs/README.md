@@ -12,3 +12,5 @@ Planning only; no project code, runtime results, or entry submission in this pha
 - [07. Reopened shortlist and brief-alignment checks](07-expanded-idea-search.md)
 
 - [08. Finalist tabletop and baseline comparisons](08-finalist-tabletop.md)
+
+- [09. Alternative ideas with real output artifacts](09-beyond-review-queues.md)
