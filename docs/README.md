@@ -26,3 +26,5 @@ Planning only; no project code, runtime results, or entry submission in this pha
 - [14. Unattended operation and stop contract](14-unattended-run-spec.md)
 
 - [15. First-use walkthrough for the three finalists](15-first-use.md)
+
+- [16. Deposit Draft, the artifact-producing challenger](16-deposit-draft-challenge.md)
