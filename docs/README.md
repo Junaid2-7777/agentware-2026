@@ -24,3 +24,5 @@ Planning only; no project code, runtime results, or entry submission in this pha
 - [13. Originality against existing tools](13-originality-check.md)
 
 - [14. Unattended operation and stop contract](14-unattended-run-spec.md)
+
+- [15. First-use walkthrough for the three finalists](15-first-use.md)
