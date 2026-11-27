@@ -10,3 +10,5 @@ Planning only; no project code, runtime results, or entry submission in this pha
 - [06. Judge rehearsal and decision pressure-test](06-judge-rehearsal.md)
 
 - [07. Reopened shortlist and brief-alignment checks](07-expanded-idea-search.md)
+
+- [08. Finalist tabletop and baseline comparisons](08-finalist-tabletop.md)
