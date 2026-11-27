@@ -18,3 +18,5 @@ Planning only; no project code, runtime results, or entry submission in this pha
 - [10. Evaluation plan and strong baselines](10-evaluation-design.md)
 
 - [11. Solo build budget and demo feasibility](11-solo-feasibility.md)
+
+- [12. Official rubric mapped to observable proof](12-rubric-proof-map.md)
