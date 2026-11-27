@@ -31,6 +31,14 @@
 | UI | Terminal-first live status/tail, human-readable queue and trace. Tiny local read-only queue view only after core gates. One stop action available without navigating. |
 | Risk limits | Fixed allowlist and output schemas; cap at 20 items, two model calls per ambiguous case and an overall run limit; budget no more than USD 0.10 as a proposed live-run cap, enforce before requests after validating provider pricing and token bounds. Zero payment, notification, or stock-write capability. |
 
+## One minimum agent loop
+
+The model starts only with a scoped discrepancy ID, trusted numerical facts, and the relevant shift note. It does not receive the entire catalog or an answer label. It can choose between bounded read-only sources: the approved receipt schedule, a corroborating arrival record, or no extra lookup when a genuine recount is the right default. The tools return stable record IDs and enough timing and identity information for the host to check the proposal; the model cannot select a file path, write stock, or close a case.
+
+A plain typed lookup goes first whenever an explicit trusted record already answers the question. The model earns a role only in cases where free-text handoff references make evidence selection meaningfully different. Compare against a strong typed policy under the same lookup budget. If the agent performs no better and merely paraphrases the record, don't launch a polished inventory chatbot: change the scenario to one with evidenced value, or choose the stronger alternative.
+
+The smallest end-to-end artifact is one locally committed case followed by an independently read trace and queue. A valid no-discrepancy run can commit a completion record without creating false tasks. A weak or conflicting record may route to review, but not change the accepted quantity or turn a missing scan export into a shortage.
+
 ## Acceptance before polish
 
 - A clean laptop starts the fixture and sees a saved queue in under 5 minutes target; contest limit under 15. No personal account.
