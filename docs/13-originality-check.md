@@ -1,0 +1,17 @@
+# Originality check: what existing tools already do
+
+The goal is not to claim a novel category. It is to identify one routine task an operator can actually hand over, and show where the agent improves the useful default. This is a comparison of documented capabilities, not an exhaustive market survey or a tested competitive benchmark.
+
+| Candidate | Do not pitch this as new | The narrower job worth demonstrating | Walk away if... |
+| --- | --- | --- | --- |
+| DockCheck | [ERPNext purchase receipts](https://docs.frappe.io/erpnext/purchase-receipt) already record received, accepted and rejected stock; [quality inspection](https://docs.frappe.io/erpnext/quality-inspection) already supports incoming checks. | Reconcile a closed shift across feeds before the operator changes its system of record: turn loose handoff references into targeted, corroborated follow-ups. The original variance stays visible. | The workflow already has consistent receipt IDs and complete evidence in one system; a typed rule can generate the same useful queue. |
+| Access Handoff | [Playwright with axe](https://playwright.dev/docs/accessibility-testing) already finds many accessibility problems, and scripted interactions can check focus. | Improve a scoped release handoff by choosing the right interaction for a changed component and attaching a concrete observed sequence to one deduplicated manual follow-up. | A deterministic check keyed on component type produces the same tasks and evidence. |
+| Deposit Draft | [Dryad](https://datadryad.org/help/guides/submission) already accepts files, metadata and README documents, and provides curation. A manifest can verify an explicit list. | Resolve a revision/documentation mismatch upstream and package the allowed synthetic files into an inspectable draft. No deposit or curation claim. | The operator can produce a correct explicit file list directly; checksums and packaging are then enough. |
+
+## The decisive tabletop cases
+
+1. **Receiving lead:** “Second delivery at 07:00” refers to one of two visually similar open receipts. A valid match requires receipt, cutoff and corroborating signed-off schedule; same supplier, quantity and wording alone is insufficient. Judge sees the unchanged numeric discrepancy and the selected next step. If the available typed index resolves it without interpretation, score the baseline as a tie rather than weakening it.
+2. **Frontend lead:** “Focus goes to the page behind it” appears on two instances of one modal component and one similarly styled nonmodal control. Judge sees one evidence-backed component task, not three guesses or a compliance verdict. If a fixed scoped keyboard suite yields identical proof, do not use a model for that path.
+3. **Lab handoff:** “Use the corrected afternoon readings with the original data dictionary” arrives with two plausible sample revisions. Judge checks a local manifest plus actual filenames. In an unresolved variant, the ready directory must not appear. A verified explicit file list bypasses inference.
+
+Do not force the agent to run on the obvious cases. The product can work mostly through reliable host logic. What earns the agent a role is making useful progress through an evidence gap that the practical default leaves to a human, while checking the final action before committing. Across all three, leave credentials, production systems, unsolicited communications and customer material out of the entry.
