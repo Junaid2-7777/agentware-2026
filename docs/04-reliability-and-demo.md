@@ -19,6 +19,14 @@
 
 Use the [official page](https://agentwarehack.com/trap-pack/) for attribution and fixture metadata. Use only offline defensive input handling: no opening untrusted links, actions against real systems, external payload execution or sending data elsewhere. Review relevant Open Track handoff/transcript and CSV adapters first. Other formats or business schemas may be unsupported; record this rather than counting a format rejection as an attack-prevention success. Create first-party, benign matching cases so an agent that declines everything cannot look good. Keep official expected outcomes out of the agent runtime; compare observed results afterward. Report case/format, supported path, terminal decision, allowed write count, and known limitations in `tests/` after implementation. If a fixture is redistributed, keep its attribution/license separate from the project's license.
 
+### Report applicability before outcomes
+
+A supported file format is not necessarily a supported workflow. DockCheck is built for receiving batches, not cold-room monitoring: a CSV that parses but has no receiving identity, due quantity, or compatible completion marker does not validate this workflow. A comparable distinction applies to the challengers: a readable web page is not a keyboard-interaction fixture, and a research note is not an approved dataset revision.
+
+Use a per-case row with fixture ID, format, domain match, mode, expected outcome, observed outcome, terminal reason, and durable writes before/after. Record **unsupported**, **not run**, **passed**, and **failed** separately. A hold is a terminal outcome: it passes only a case whose expected outcome is the specific hold. No published fixture observations exist in the planning phase.
+
+For a supported workflow, pair a valid synthetic input that must complete with one changed condition that must produce a bounded hold. Count writes by inspecting the output destination independently. This distinguishes a useful worker from one that rejects everything without incorrectly treating a different domain as a scored pass.
+
 ## Four bonus proofs
 
 1. **Guardrails:** The tool registry cannot place orders, send messages, mutate counts, or read outside the fixture. Host validates workspace and verified evidence, applies a constrained action policy, and performs the real write. A model disagreeing with policy changes nothing.
