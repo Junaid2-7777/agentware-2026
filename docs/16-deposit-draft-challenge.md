@@ -21,6 +21,12 @@ Can a finalist that finishes a usable artifact beat a workflow that creates revi
 
 The real baseline is not “copy newest.” It is explicit manifest validation plus exact matching on revision and typed relationships, or a bounded deterministic browse of candidate descriptions where possible. The model must resolve a genuinely contextual case that those methods would leave for manual work without introducing false selections. The demo should show the new folder and verifier output, not merely a narrated catalog.
 
+## Matched revision-provenance test
+
+Use two valid synthetic CSV revisions with identical headers. Each has a capture manifest; the more recently modified file is the wrong revision. The decisive record ties the intended transformation to a specific verified capture and data dictionary, including units or the missing-value convention. The judge verifies files and digests in the activated local draft. Remove only that corroborating record: the agent should leave the previous ready draft alone and record one actionable review item, not pick based on a timestamp. Give the typed baseline full credit whenever it makes either decision correctly. If all necessary relationships are explicit, the model is unnecessary.
+
+[Dryad's README generator](https://datadryad.org/help/submission_steps/readme) already imports file and variable names, and its [data guidance](https://datadryad.org/help/guides/best_practices) addresses how to document data. [BagIt](https://www.rfc-editor.org/rfc/rfc8493.html) already provides packaging integrity checks. Don't claim those functions as novelty. This design's only proposed value is choosing which approved revision belongs in the handoff when plain-language and typed records must be reconciled.
+
 ## Does it replace the front-runner?
 
 - **Against DockCheck:** More tangible and no database or browser is needed. But the value recurs only for teams whose handoffs omit tied-down IDs. The positive case may look like smart packaging, where a disciplined team can simply maintain a manifest.
