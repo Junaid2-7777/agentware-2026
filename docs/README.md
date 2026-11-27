@@ -16,3 +16,5 @@ Planning only; no project code, runtime results, or entry submission in this pha
 - [09. Alternative ideas with real output artifacts](09-beyond-review-queues.md)
 
 - [10. Evaluation plan and strong baselines](10-evaluation-design.md)
+
+- [11. Solo build budget and demo feasibility](11-solo-feasibility.md)
