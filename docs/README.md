@@ -1,6 +1,6 @@
 # Planning index
 
-Planning only; no project code, runtime results, or entry submission in this phase.
+Planning only; no project code, runtime results, or entry submission in this phase. Start with the [final recommendation](17-final-decision.md).
 
 - [01. Event and judging](01-event-and-judging.md)
 - [02. Ideas and decision](02-ideas-and-decision.md)
@@ -28,3 +28,5 @@ Planning only; no project code, runtime results, or entry submission in this pha
 - [15. First-use walkthrough for the three finalists](15-first-use.md)
 
 - [16. Deposit Draft, the artifact-producing challenger](16-deposit-draft-challenge.md)
+
+- [17. Final recommendation and first build proof](17-final-decision.md)
