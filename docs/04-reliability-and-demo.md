@@ -7,6 +7,8 @@
 | Complete clean shift | When all receipts match, no tasks; finish and log the summary. |
 | Mixed shift | Persist exactly the expected separate cases with evidence; ignore matched lines. Distinct handoff evidence drives a different allowed category. |
 | Untrusted text | Treat pasted prose/logs as data; validate reference IDs and action enum in host code; irrelevant instructions cannot expand capabilities. Benign suspicious prose still permits supported workflow. |
+| Same counts, different due times | 20 ordered, 18 due at cutoff and 18 scanned: zero tasks. 20 due and 18 scanned: preserve the two-unit variance; if a later arrival is corroborated, queue one split-delivery review. |
+| Export completeness | A manifest-verified, schema-valid header-only export counts as zero scans; a missing or truncated file or a digest/revision/cutoff mismatch produces one source hold and no shortage tasks. |
 | Bad numeric or time data | Report missing/stale source, conflicting ID, mixed units or incomplete marker as appropriate. Never silently coerce to zero. |
 | Retry and resume | Short, bounded backoff for transient model faults; permanent schema errors are not retried endlessly. Commit fallback review/hold only when the batch is safe to process. Record cause and cost; no duplicate writes. |
 | Budget and cancellation | Kill while a slow model wait is pending, issue cancellation to that client and prevent its result from ever committing. Cancel queued work, stop retries, and retain previous committed transactions only. Verify no late writes after the controlled stall completes. |
